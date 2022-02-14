@@ -10,10 +10,13 @@
 <body>
     <div id="startPage">
             <img src="img/elaineArt.jpeg">
-        <div id="linkPage">
-            <a href="second.html">UNscharf</a>
-            <h6>Elaine Kleene ZHDK Industrial Design 2022</h6>
-        </div>
+            <div id="linkContainer">
+                <div id="linkPage">
+                    <a href="second.html">UNscharf</a>
+                    <h6>Elaine Kleene ZHDK Industrial Design 2022</h6>
+                </div>
+            </div>
+
     </div>
     <footer>
         Elaine Kleene
@@ -37,10 +40,15 @@
         height: 100%;
         width: 36%;
     }
+
+    #linkContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
     #linkPage{
         background-color: black;
         width: 100%;
-        padding: 19%;
     }
     #linkPage a{
         font-family: Arial, Helvetica, sans-serif;
